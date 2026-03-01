@@ -16,7 +16,7 @@ jobs:
       - name: Run a one-line script
         run: |
           echo " " >> README.md
-          git config user.name therobopsychologist
+          git config user.name eddgentic
           git config user.email edward@robopsychologist.eu
           git add .
           git commit -m "Always green!"
